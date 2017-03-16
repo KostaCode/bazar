@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <a href=""><img src="assets/images/logo.png" alt="bazar.bg" /></a>
+            </div>
+            <div id="searchLogin">
+                <div class="login">
+                    <span id="obqva">
+                    <a id="bezplatnaObqva" href=""> Безплатни обяви без лимити!</a>
+                    </span>
+                    <span id="reg">
+                    <span id="vhod">
+                    <a  title="" href="" id="registraciq">Регистрация</a> |
+					<a title="" href="" id= "enter">Вход</a>
+					или  </span>
+                    <spanid="fb">
+                        <a href=""><img class="fbLogin" src="assets/images/fb_login.png" alt="вход през Фейсбук"></a>
+                        </span>
+                        </span>
+                        </span>
+                </div>
+                <div class="search">
+                    <a class="nav" href="">Добави обява</a>
+                    <a class="nav" href="">Обяви</a>
+                    <a class="nav" href="">Магазини</a>
+                    <a class="nav" href="">Помощ</a>
+                    <a class="nav" href="">Моите обяви</a>
+                    <a id="dobaviObqva" href="">
+                        <img src="assets/images/dobaviObqva.jpg" alt="Добави обява!"></a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div id="nav">
+                <span class="left-nav">
+          <form action="" method="">
+                    <select name="rubriki" id="inputRubriki">
+                <option value="Vsichki rubriki">Всички рубрики</option>
+                <option class= "basic" value="Avto">--Авто--</option>
+                <option value="Avtomobili i djipove">Автомобили и джипове</option>
+                <option value="Busove i avtobusi">Бусове и автобуси</option>
+                <option value="Vsichki rubriki">Камиони</option>
+                <option value="Avto">Специализирана техника</option>
+                <option value="Avtomobili i djipove">Мотоциклети и мототехника</option>
+                <option value="Busove i avtobusi">Каравани и кемпери</option>
+                <option value="Vsichki rubriki">Воден транспорт</option>
+                <option value="Avto">Ремаркета</option>
+                <option value="Avtomobili i djipove">Резервни части</option>
+                <option value="Busove i avtobusi">Аксесоари и консумативи</option>
+                <option value="Vsichki rubriki">Гуми и джанти</option>
+                <option value="Avto">Авто услуги</option>
+                <option class= "basic"value="Avtomobili i djipove">--ИМОТИ--</option>
+                <option value="Busove i avtobusi">Апартаменти</option>
+                <option value="Vsichki rubriki">Стаи под наем</option>
+                <option value="Avto">Къщи,вили</option>
+                <option value="">Парцели, земя</option>
+                <option value="">Бизнес имоти</option>
+                <option value="">Гаражи и паркоместа</option>
+                <option value="">Съквартиранти</option>
+                <option value="">--ЕЛЕКТРОНИКА--</option>
+                <option value="">IT продукти</option>
+                <option value="">Игри и конзоли</option>
+                <option value="">TV, аудио, фото и видео</option>
+                <option value="">Мобилни телефони</option>
+                <option value="">--УСЛУГИ--</option>
+                <option value="">Курсове и обучение</option>
+                <option value="">Строителни и ремонти</option>
+                <option value="">Транспортни, хамалски</option>
+                <option value="">Финансовни, правни</option>
+                <option value="">Преводи, легализации</option>
+                <option value="">Почистване</option>
+                <option value="">Сватби, събития, кетъринг</option>
+                <option value="">Фризьорски и козметични</option>
+                <option value="">Болногледачи, хосписи</option>
+                <option value="">Детегледачки, детски центрове</option>
+                <option value="">Охранителни, детективски</option>
+                <option value="">Медицински, стоматологични</option>
+                <option value="">Занаятчийски</option>
+                <option value="">Ясновидство</option>
+                <option value="">Ремонт на бяла и черна техника</option>
+                <option value="">Други услуги</option>
+                <option value="">--ЛИЧНИ ВЕЩИ--</option>
+                <option value="">Дамски дрехи</option>
+                <option value="">Мъжки дрехи</option>
+                <option value="">Дамски обувки</option>
+                <option value="">Мъжки обувки</option>
+                <option value="">Парфюмерия и козметика</option>
+                <option value="">Бижутерия</option>
+                <option value="">Часовници</option>
+                <option value="">Аксесоари</option>
+                <option value="">Подаръци и сувенири</option>
+                <option value="">--ЗА ДОМА--</option>
+                <option value="">Мебели</option>
+                <option value="">Битова техника</option>
+                <option value="">Прибори и съдове за хранене</option>
+                <option value="">Осветление</option>
+                <option value="">Изкуство и декорация</option>
+                <option value="">Завеси, Спално бельо, Килими</option>
+                <option value="">Направи си сам и Градинарство</option>
+                <option value="">Стайни растения</option>
+                <option value="">Други стоки за дома</option>
+                <option value="">--РАБОТА--</option>
+                <option value="">Детегледачки</option>
+                <option value="">Домашни помощници</option>
+                <option value="">Продавачи, дистрибутори</option>
+                <option value="">Охрана</option>
+                <option value="">Сервитьори, бармани, готвачи</option>
+                <option value="">Рецепционисти, камериерки</option>
+                <option value="">Шофьори, автомонтьори</option>
+                <option value="">Общи работници</option>
+                <option value="">Строителство и ремонт</option>
+                <option value="">Фризьори, козметички</option>
+                <option value="">Аниматори, танцьори, статисти</option>
+                <option value="">Шивачки</option>
+                <option value="">В чужбина</option>
+                <option value="">Други сфери на работа</option>
+                <option value="">--БИЗНЕС, МАШИНИ И ОБОРУДВАНЕ--</option>
+                <option value="">Бизнес партньорство</option>
+                <option value="">Търговско оборудване</option>
+                <option value="">Хотелско и ресторантьорски оборудване</option>
+                <option value="">Фризьорски и козметично оборудване</option>
+                <option value="">Медицинско оборудване</option>
+                <option value="">Професионални машини и съоръжения</option>
+                <option value="">--ДЕТСКИ И БЕБЕШКИ--</option>
+                <option value="">Дрехи</option>
+                <option value="">Обувки</option>
+                <option value="">Играчки</option>
+                <option value="">За детската стая</option>
+                <option value="">За разходка с детето</option>
+                <option value="">Бебешки аксесоари</option>
+                <option value="">Други детски стоки</option>
+                <option value="">Стоки за близнаци</option>
+                <option value="">--СВОБОДНО ВРЕМЕ--</option>
+                <option value="">Музика, Филми, Книги</option>
+                <option value="">Спорт и Хоби</option>
+                <option value="">Музикални инструменти</option>
+                <option value="">Колекционерски</option>
+                <option value="">Храна, Вино, Ракия</option>
+                <option value="">Билети и Събития</option>
+                <option value="">Електронни цигари и наргилета</option>
+                <option value="">Туризъм и Екскурзии</option>
+                <option value="">--ЖИВОТНИ--</option>
+                <option value="">Кучета</option>
+                <option value="">Котки</option>
+                <option value="">Птици</option>
+                <option value="">Аквариуми и рибки</option>
+                <option value="">Гризачи и дребни животни</option>
+                <option value="">Екзотични и терариуми</option>
+                <option value="">Селскостопански</option>
+                <option value="">Други животни</option>
+                <option value="">Стоки за животни</option>
+                <option value="">Ветеринари и услуги</option>
+                <option value="">Търси партьор</option>
+                <option value="">Изгубени/Намерени</option>
+                <option value="">--ДРУГИ--</option>
+                <option value="">Други</option>
+                </select>
+                <input  id="inputDumi" type="text" placeholder="търсене по ключови думи">
+                <select id="inputGrad">
+                <option value="">--Цяла България--</option>
+                <option value="">гр. София</option>
+                <option value="">гр. Бургас</option>
+                <option value="">гр. Варна</option>
+                <option value="">гр. Пловдив</option>
+                <option value="">гр. Русе</option>
+                <option value="">гр. Благоевград</option>
+                <option value="">област Блогоевград</option>
+                <option value="">област Бургас</option>
+                <option value="">област Варна</option>
+                <option value="">гр. Велико Търново</option>
+                <option value="">област Велико Търново</option>
+                <option value="">гр. Видин</option>
+                <option value="">област Видин</option>
+                <option value="">гр. Враца</option>
+                <option value="">област Враца</option>
+                <option value="">гр. Габрово</option>
+                <option value="">област Габрово</option>
+                <option value="">гр. Добрич</option>
+                <option value="">област Добрич</option>
+                <option value="">гр. Кърджали</option>
+                <option value="">област Кърджали</option>
+                <option value="">гр. Кюстендил</option>
+                <option value="">област Кюстендил</option>
+                <option value="">гр. Ловеч</option>
+                <option value="">област Ловеч</option>
+                <option value="">гр. Монтана</option>
+                <option value="">област Монтана</option>
+                <option value="">гр.Пазарджик</option>
+                <option value="">област Пазарджик</option>
+                <option value="">гр. Перник</option>
+                <option value="">област Перник</option>
+                <option value="">гр. Плевен</option>
+                <option value="">област Плевен</option>
+                <option value="">област Пловдив</option>
+                <option value="">гр. Разград</option>
+                <option value="">облад Разград</option>
+                <option value="">област Русе</option>
+                <option value="">гр. Силистра</option>
+                <option value="">област Силистра</option>
+                <option value="">гр. Сливен</option>
+                <option value="">област Сливен</option>
+                <option value="">гр. Смолян</option>
+                <option value="">област Смолян</option>
+                <option value="">гр. Стара Загора</option>
+                <option value="">област Стара Загора</option>
+                <option value="">гр. Търговище</option>
+                <option value="">област Търговище</option>
+                <option value="">гр. Хасково</option>
+                <option value="">област Хасково</option>
+                <option value="">гр. Шумен</option>
+                <option value="">област Шумен</option>
+                <option value="">гр. Ямбол</option>
+                <option value="">област Ямбол</option>
+                <option value="">Извън страната</option>
+                <input id="inputTursi" type="submit" value="Търси">
+                <input id="inputZaglavie" type="checkbox" name="" value=""> </input><label>Търси само в заглавията</label>
+                <input id="inputSpeshno" type="checkbox" name="" value="">Спешно </input>
+                <input id="inputFoto" type="checkbox" name="" value="">Фото </input>
+                <input id="inputVideo"type="checkbox" name="" value="">Видео</input>
+                </form>
+                <div>
+            </nav>
+            <section id="all-categories">
+            <span id="obqvi-categories">
+                <span> 694 298 обяви от цяла България</span>
+                <a href=""> ТОП 100 магазина в bazar.bg за месеца</a>
+                </span>
+                <div id="categories">
+                    <div class="categories-up-down">
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/car.png" alt="">
+                                <div class="number-of-product">288 923</div>
+                                <div class="name-of-product">Авто</div>
+                            </a>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/house.png" alt="">
+                                <div class="number-of-product">3543</div>
+                                <div class="name-of-product">Имоти</div>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/shoes.png" alt="">
+                                <div class="number-of-product">643</div>
+                                <div class="name-of-product">Лични вещи</div>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/computer.png" alt="">
+                                <div class="number-of-product">634</div>
+                                <div class="name-of-product">Електроника</div>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/baby.png" alt="">
+                                <div class="number-of-product">372</div>
+                                <div class="name-of-product">Детски и бебешки</div>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/sofa.png" alt="">
+                                <div class="number-of-product">277</div>
+                                <div class="name-of-product">За дома</div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="categories-up-down">
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/violin.png" alt="">
+                                <div class="number-of-product"></div>
+                                <div class="name-of-product">Свободно време</div>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/toolbox.png" alt="">
+                                <div class="number-of-product"></div>
+                                <div class="name-of-product">Услуги</div>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/work.png" alt="">
+                                <div class="number-of-product"></div>
+                                <div class="name-of-product">Работа</div>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/machine.png" alt="">
+                                <div class="number-of-product"></div>
+                                <div class="name-of-product">Бизнес, машини</div>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/dog.png" alt="">
+                                <div class="number-of-product"></div>
+                                <div class="name-of-product">Животни</div>
+                            </a>
+                        </article>
+                        <article class="product">
+                            <a href="" title="">
+                                <img src="assets/images/glass.png" alt="">
+                                <div class="number-of-product"></div>
+                                <div class="name-of-product">Други</div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                </section>
+
+                <div id="categoriesDiv">
+                    <div class="span">
+                        <a class="shortcutsTitle" href="">Авто</a><br/>
+                        <a class="shortcuts" href="">Автомобили и джипове</a><br/>
+                        <a class="shortcuts" href="">Бусове и автобси</a><br/>
+                        <a class="shortcuts" href="">Камиони</a><br/>
+                        <a class="shortcuts" href="">Специализирана техника</a><br/>
+                        <a class="shortcuts" href="">Мотоциклети и мототехника</a><br/>
+                        <a class="shortcuts" href="">Каравани и кемпери</a><br/>
+                        <a class="shortcuts" href="">Воден транспорт</a><br/>
+                        <a class="shortcuts" href="">Ремаркета</a><br/>
+                        <a class="shortcuts" href="">Резервни части</a><br/>
+                        <a class="shortcuts" href="">Аксесоари и консумативи</a><br/>
+                        <a class="shortcuts" href="">Гуми и джанти</a><br/>
+                        <a class="shortcuts" href="">Авто услуги</a><br/>
+                        <a class="shortcutsTitle" href="">Имоти</a><br/>
+                        <a class="shortcuts" href="">Апартаменти</a><br/>
+                        <a class="shortcuts" href="">Стаи под наем</a><br/>
+                        <a class="shortcuts" href="">Къщи,вили</a><br/>
+                        <a class="shortcuts" href="">Парцели,земя</a><br/>
+                        <a class="shortcuts" href="">Бинес имоти</a><br/>
+                        <a class="shortcuts" href="">Гаражи и паркоместа</a><br/>
+                        <a class="shortcuts" href="">Съквартиранти</a><br/>
+                        <a class="shortcutsTitle" href="">За дома</a><br/>
+                        <a class="shortcuts" href="">Мебели</a><br/>
+                        <a class="shortcuts" href="">Битова техника</a><br/>
+                        <a class="shortcuts" href="">Прибори и съдове за хранене</a><br/>
+                        <a class="shortcuts" href="">Изкуство и декорация</a><br/>
+                        <a class="shortcuts" href="">Завеси, спално бельо, килими</a><br/>
+                        <a class="shortcuts" href="">Направи си сам и градинарство</a><br/>
+                        <a class="shortcuts" href="">Стайни растения</a><br/>
+                        <a class="shortcuts" href="">Други стоки за дома</a><br/>
+                        <a class="shortcuts" href="">Осветлние</a><br/>
+                    </div>
+                    <div class="span">
+                        <a class="shortcutsTitle" href="">Електроника</a><br/>
+                        <a class="shortcuts" href="">It продукти</a><br/>
+                        <a class="shortcuts" href="">Игри и конзили</a><br/>
+                        <a class="shortcuts" href="">Tv, аудио, фото и видео</a><br/>
+                        <a class="shortcuts" href="">Мобилни телефони</a><br/>
+                        <a class="shortcutsTitle" href="">Детски и бебешки</a><br/>
+                        <a class="shortcuts" href="">Дрехи</a><br/>
+                        <a class="shortcuts" href="">Обувки</a><br/>
+                        <a class="shortcuts" href="">Играчки</a><br/>
+                        <a class="shortcuts" href="">За детската стая</a><br/>
+                        <a class="shortcuts" href="">За разходка с детето</a><br/>
+                        <a class="shortcuts" href="">Бебешки аксесоари</a><br/>
+                        <a class="shortcuts" href="">Други детски стоки</a><br/>
+                        <a class="shortcuts" href="">Стоки за близнаци</a><br/>
+                        <a class="shortcutsTitle" href="">Услуги</a><br/>
+                        <a class="shortcuts" href="">Курсове и обучение</a><br/>
+                        <a class="shortcuts" href="">Строителни и ремонтни</a><br/>
+                        <a class="shortcuts" href="">Транспортни, хамалкски</a><br/>
+                        <a class="shortcuts" href="">Финансови, правни</a><br/>
+                        <a class="shortcuts" href="">Преводи, легализации</a><br/>
+                        <a class="shortcuts" href="">Почистване</a><br/>
+                        <a class="shortcuts" href="">Сватби, събития, кетъринг</a><br/>
+                        <a class="shortcuts" href="">Фризьорски, козметични</a><br/>
+                        <a class="shortcuts" href="">Болнигледачки, хосписи</a><br/>
+                        <a class="shortcuts" href="">Детегледачки, детски центрове</a><br/>
+                        <a class="shortcuts" href="">Охраителни, детективски</a><br/>
+                        <a class="shortcuts" href="">Медицински, стоматологични</a><br/>
+                        <a class="shortcuts" href="">Занаятчииски</a><br/>
+                        <a class="shortcuts" href="">Ясновидство</a><br/>
+                        <a class="shortcuts" href="">Ремонт на бяла и черна техника</a><br/>
+                        <a class="shortcuts" href="">Други услуги</a><br/>
+                    </div>
+                    <div class="span">
+                        <a class="shortcutsTitle" href="">Животни</a><br/>
+                        <a class="shortcuts" href="">Кучета</a><br/>
+                        <a class="shortcuts" href="">Котки</a><br/>
+                        <a class="shortcuts" href="">Птици</a><br/>
+                        <a class="shortcuts" href="">Аквариуми и рибки</a><br/>
+                        <a class="shortcuts" href="">Гризачи и драбни животни</a><br/>
+                        <a class="shortcuts" href="">Екзотични и терариуми</a><br/>
+                        <a class="shortcuts" href="">Селскостопански</a><br/>
+                        <a class="shortcuts" href="">Други животни</a><br/>
+                        <a class="shortcuts" href="">Стоки за животни</a><br/>
+                        <a class="shortcuts" href="">Ветеринари и услуги</a><br/>
+                        <a class="shortcuts" href="">Търси партньори</a><br/>
+                        <a class="shortcuts" href="">Изгубени/намерени</a><br/>
+                        <a class="shortcutsTitle" href="">Работа</a><br/>
+                        <a class="shortcuts" href="">Детегледачки</a><br/>
+                        <a class="shortcuts" href="">Домашни помошници</a><br/>
+                        <a class="shortcuts" href="">Продавачи/дистрибутори</a><br/>
+                        <a class="shortcuts" href="">Охрана</a><br/>
+                        <a class="shortcuts" href="">Сервитьори, бармани, готвачи...</a><br/>
+                        <a class="shortcuts" href="">Рецепционисти, камериерки...</a><br/>
+                        <a class="shortcuts" href="">Шофьори, автомонтьори</a><br/>
+                        <a class="shortcuts" href="">Общи работници</a><br/>
+                        <a class="shortcuts" href="">Строителство и ремонт</a><br/>
+                        <a class="shortcuts" href="">Фризьори, козметички</a><br/>
+                        <a class="shortcuts" href="">Аниматори, танцьори, статисти...</a><br/>
+                        <a class="shortcuts" href="">Шивачи</a><br/>
+                        <a class="shortcuts" href="">В чужбина</a><br/>
+                        <a class="shortcuts" href="">Други оферти за работа</a><br/>
+                    </div>
+                    <div class="span">
+                        <a class="shortcutsTitle" href="">Лични вещи</a><br/>
+                        <a class="shortcuts" href="">Дамски дрехи</a><br/>
+                        <a class="shortcuts" href="">Мъжки дрехи</a><br/>
+                        <a class="shortcuts" href="">Дамски обувки</a><br/>
+                        <a class="shortcuts" href="">Мъжки обувки</a><br/>
+                        <a class="shortcuts" href="">Парфюмерия и козметика</a><br/>
+                        <a class="shortcuts" href="">Бижутерия</a><br/>
+                        <a class="shortcuts" href="">Часовници</a><br/>
+                        <a class="shortcuts" href="">Аксесоари</a><br/>
+                        <a class="shortcuts" href="">Подаръци и сувенири</a><br/>
+                        <a class="shortcutsTitle" href="">Свободно време</a><br/>
+                        <a class="shortcuts" href="">Музика, филми и книги</a><br/>
+                        <a class="shortcuts" href="">Спорт и хоби</a><br/>
+                        <a class="shortcuts" href="">Музикални инструменти</a><br/>
+                        <a class="shortcuts" href="">Колекционерски</a><br/>
+                        <a class="shortcuts" href="">Храна, вино, ракия...</a><br/>
+                        <a class="shortcuts" href="">Електронни цигари и наргилета</a><br/>
+                        <a class="shortcuts" href="">Билети и събития</a><br/>
+                        <a class="shortcuts" href="">Туризъм и екскурзии</a><br/>
+                        <a class="shortcutsTitle" href="">Бизнес, машини и оборудване</a><br/>
+                        <a class="shortcuts" href="">Бизнес партньорство</a><br/>
+                        <a class="shortcuts" href="">Търговско оборудване</a><br/>
+                        <a class="shortcuts" href="">Хотелско и ресторантьорско оборудване</a><br/>
+                        <a class="shortcuts" href="">Фризьорско и козметично оборудване</a><br/>
+                        <a class="shortcuts" href="">Медицинско оборудване</a><br/>
+                        <a class="shortcuts" href="">Професионални машини и съоражения</a><br/>
+
+
+                    </div>
+                </div>
+
+                <footer>
+                    <div id="linksDiv">
+                        <a href="">Контакти</a>
+                        <a href="">Реклама</a>
+                        <a href="">Общи условия</a>
+                        <a href="">Помощ</a>
+                        <a href="">Мобилна версия</a>
+                        <a id="specialFooterLink" href="">Въпроси и предложения към bazar.bg</a>
+                    </div>
+                    <p>
+                        © Bazar.BG - сайт за безплатни обяви.
+                    </p>
+                    <p>
+                        Използването на Bazar.BG или публикуването на обява в сайта означава съгласие с Общи условия за ползване на Bazar.BG.
+                    </p>
+                </footer>
+            </div>
+    </div>
+</body>
+
+</html>
