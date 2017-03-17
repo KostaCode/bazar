@@ -6,6 +6,7 @@ body {
     margin: auto;
     box-sizing: border-box;
 }
+/* header */
 header {
     box-sizing: border-box;
     /*background-color: #fff;*/
@@ -18,9 +19,7 @@ header {
     height: 72px;
     width: 1170px;
 }
-/*#login {
-    display: inline-block;
-}*/
+
 div.login {
     display: inline-block;
     box-sizing: border-box;
@@ -28,9 +27,9 @@ div.login {
 div.search {
     margin-top: 10px;
 }
-div.search > img {
+/*div.search> img {
     float: left;
-}
+}*/
 #searchLogin {
     box-sizing: border-box;
     width: 75%;
@@ -40,6 +39,12 @@ div.search > img {
     box-sizing: border-box;
     width: 25%;
     float: left;
+}
+div.search > div {
+    display: inline-block;
+    height: 23px;
+     text-align: center;
+    width: 120px;
 }
 span#obqva {
     vertical-align: middle;
@@ -71,6 +76,7 @@ span#obqva {
 }
 
 #fb {
+    margin-left: 5px;
     float:right;
 }
 span#vhod {
@@ -99,16 +105,18 @@ a#dobaviObqva {
     margin-top: 10px;
     margin-left: 90px;
 }
+
+/*nav*/
 a.nav {
   /*width: 90px;*/
-  margin-right: 34px;
+  /*margin-right: 34px;*/
   display: inline-block;
   color: #3b5998;
   font-size: 15px;
   font-weight: bold;
   text-decoration: none;
   
-  /*text-align: center;*/
+  text-align: center;
 }
 a.nav:hover {
     text-decoration: underline;
@@ -188,9 +196,15 @@ div#nav{
     height: 27px;
     /*border-radius: 5px;*/
 }
+
 #inputSpeshno {
-    margin-left: 544px;
+    margin-left: 540px;
+    /*color: #FFF;
+    cursor: pointer;
+    font-size: 13px;*/
 }
+
+/* section all-categories*/
 #obqvi-categories {
     width: 100%;
     padding-bottom: 15px;
@@ -272,7 +286,6 @@ article.product div.name-of-product {
 }
 article.product div.name-of-product:hover {
     color: #F40;
-
 }
 article.product div.number-of-product {
     position: absolute;
@@ -293,11 +306,13 @@ article.product div.number-of-product:hover{
     background-color: #F40;
 }
 
+/* div categoriesDiv*/
 #categoriesDiv{
     box-sizing: border-box;
     width: 100%;
     /*background-color: lightcoral;*/
     display: inline-block;
+    background-color: #f1f1f6;
 }
 #categoriesDiv > .span{
     box-sizing: border-box;
@@ -333,6 +348,11 @@ footer {
     align-content: center;
     line-height: 1.1em;
     padding: 15px 20px;
+    box-sizing: border-box;
+    background-color: #f1f1f6;
+    width: 100%;
+    height: auto;
+    
 }
 #linksDiv{
     display: inline-block;
@@ -353,4 +373,17 @@ footer > p{
 }
 #specialFooterLink{
     float:right;
+}
+
+div#titleRegistraciq {
+    background: none repeat scroll 0 0 #E3EBF0;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 5px 18px 7px;
+    margin-top: 20px;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 15px;
+    color: #333333;
 }

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Добави обява</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/styleObqva.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header>
+            <div id="logo">
+                <a href=""><img src="../images/logo.png" alt="bazar.bg" /></a>
+            </div>
+            <div id="searchLogin">
+                <div class="login">
+                    <span id="obqva">
+                    <a id="bezplatnaObqva" href=""> Безплатни обяви без лимити!</a>
+                    </span>
+                    <span id="reg">
+                    <span id="vhod">
+                    <a  title="" href="" id="registraciq">Регистрация</a> |
+					<a title="" href="" id= "enter">Вход</a>
+					или  </span>
+                    <spanid="fb">
+                        <a href=""><img class="fbLogin" src="../images/fb_login.png" alt="вход през Фейсбук"></a>
+                        </span>
+                        </span>
+                        </span>
+                </div>
+                <div class="search">
+                     <div><a class="nav" href="">Добави обява</a></div>
+                     <div><a class="nav" href="">Обяви</a></div>
+                     <div><a class="nav" href="">Магазини</a></div>
+                     <div><a class="nav" href="">Помощ</a></div>
+                     <div><a class="nav" href="">Моите обяви</a></div>
+                     <div ><a id="dobaviObqva" href="">
+                        <img src="../images/dobaviObqva.jpg" alt="Добави обява!"></a>
+                </div>
+            </div>
+        </header>
+
+        <div id="dobaviObqwa">
+            <h1>Добави обява</h1>
+        </div>
+        <div>
+            <form action="">
+                <div class="label-input">
+                    <div class="label">
+                        <label for="title">Заглавие:</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="title" name="title">
+                    </div>
+                </div>
+                <div class="label-input">
+                    <div class="label">
+                        <label for="rubrika">Рубрика:</label>
+                    </div>
+                    <div class="input">
+                        <select name="rubrika" id="rubrika"></select>
+                    </div>
+                </div>
+                <div class="label-input">
+                    <div class="label">
+                        <label for="productDescription">Текст:</label>
+                    </div>
+                    <div class="textarea">
+                        <textarea name="description" id="productDescription" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="label-input">
+                    <!--Място за картинка на продукта!!!-->
+                    <div class="label">
+                        <label for="productImg"></label>
+                    </div>
+                </div>
+                <div class="label-input">
+                    <div class="label">
+                        <label for="video">Видео:</label>
+                    </div>
+                    <div class="input">
+                        <input type="text/url" id="video" />
+                    </div>
+                </div>
+                <div class="label-input">
+                    <div class="label">
+                        <label for="oblast">Местоположение:</label>
+                    </div>
+                    <div class="select">
+                        <select name="oblast" id="oblast">
+                <option value="">--Цяла България--</option>
+                <option value="">гр. София</option>
+                <option value="">гр. Бургас</option>
+                <option value="">гр. Варна</option>
+                <option value="">гр. Пловдив</option>
+                <option value="">гр. Русе</option>
+                <option value="">гр. Благоевград</option>
+                <option value="">област Блогоевград</option>
+                <option value="">област Бургас</option>
+                <option value="">област Варна</option>
+                <option value="">гр. Велико Търново</option>
+                <option value="">област Велико Търново</option>
+                <option value="">гр. Видин</option>
+                <option value="">област Видин</option>
+                <option value="">гр. Враца</option>
+                <option value="">област Враца</option>
+                <option value="">гр. Габрово</option>
+                <option value="">област Габрово</option>
+                <option value="">гр. Добрич</option>
+                <option value="">област Добрич</option>
+                <option value="">гр. Кърджали</option>
+                <option value="">област Кърджали</option>
+                <option value="">гр. Кюстендил</option>
+                <option value="">област Кюстендил</option>
+                <option value="">гр. Ловеч</option>
+                <option value="">област Ловеч</option>
+                <option value="">гр. Монтана</option>
+                <option value="">област Монтана</option>
+                <option value="">гр.Пазарджик</option>
+                <option value="">област Пазарджик</option>
+                <option value="">гр. Перник</option>
+                <option value="">област Перник</option>
+                <option value="">гр. Плевен</option>
+                <option value="">област Плевен</option>
+                <option value="">област Пловдив</option>
+                <option value="">гр. Разград</option>
+                <option value="">облад Разград</option>
+                <option value="">област Русе</option>
+                <option value="">гр. Силистра</option>
+                <option value="">област Силистра</option>
+                <option value="">гр. Сливен</option>
+                <option value="">област Сливен</option>
+                <option value="">гр. Смолян</option>
+                <option value="">област Смолян</option>
+                <option value="">гр. Стара Загора</option>
+                <option value="">област Стара Загора</option>
+                <option value="">гр. Търговище</option>
+                <option value="">област Търговище</option>
+                <option value="">гр. Хасково</option>
+                <option value="">област Хасково</option>
+                <option value="">гр. Шумен</option>
+                <option value="">област Шумен</option>
+                <option value="">гр. Ямбол</option>
+                <option value="">област Ямбол</option>
+                <option value="">Извън страната</option>
+                </select>
+                    </div>
+                </div>
+                <div class="radioButtons">
+                    <input type="radio" value="" name="typeOfPerson">Частно лице</input>
+                    <input type="radio" value="" name="typeOfPerson">Търговец</input>
+                </div>
+                <div class="label-input">
+                    <div class="label">
+                        <label for="name">Вашето име:</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="name" value="" />
+                    </div>
+                </div>
+                <div class="label-input">
+                    <div class="label">
+                        <label for="phone">Телефон за връзка:</label>
+                    </div>
+                    <div class="input">
+                        <input type="number" id="phone" value="" />
+                        <input type="checkbox" value="isNum">Не публикувай телефон</input>
+                    </div>
+                </div>
+                <div id="agreement">
+                    <input type="checkbox" value="isAgree">Съгласен съм с условията на bazar.bg</input>
+                </div>
+                <div class="label-input">
+                    <div class="label">
+                        <label for="e-mail">E-mail:</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="e-mail" value="" />
+                    </div>
+                </div>
+                <div class="label-input">
+                    <div class="label">
+                        <label for="password">Парола:</label>
+                    </div>
+                    <div class="input">
+                        <input type="password" id="password" value="" />
+                    </div>
+                </div>
+                <div class="label-input">
+                    <div class="label">
+                        <label for="repeatPassword">Потвърди паролата:</label>
+                    </div>
+                    <div class="input">
+                        <input type="password" id="repeatPassword" value="" />
+                    </div>
+                </div>
+                <div id="button">
+                    <button type="submit">Публикуване</button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div id="linksDiv">
+                <a href="">Контакти</a>
+                <a href="">Реклама</a>
+                <a href="">Общи условия</a>
+                <a href="">Помощ</a>
+                <a href="">Мобилна версия</a>
+                <a id="specialFooterLink" href="">Въпроси и предложения към bazar.bg</a>
+            </div>
+            <p>
+                © Bazar.BG - сайт за безплатни обяви.
+            </p>
+            <p>
+                Използването на Bazar.BG или публикуването на обява в сайта означава съгласие с Общи условия за ползване на Bazar.BG.
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
