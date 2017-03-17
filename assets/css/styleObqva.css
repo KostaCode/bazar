@@ -184,10 +184,58 @@ a#dobaviObqva {
     padding: 10px 12px;
     font-size: 1.3em;
 }
+.hidden{
+    display: inline-block;
+    width: 200px;
+    font-family: sans-serif;
+    position: absolute;
+    border-radius: 5px;
+    background-color:darkorange;
+    color: white;
+    padding: 5px;
+    left: 850px;
+}
+#titleHiddenDiv{
+    top: 155px;
+    display: none;
+}
+#descriptionHiddenDiv{
+    top: 300px;
+    display: none;
+}
+#videoHiddenDiv{
+    top: 470px;
+    display: none;
+}
+#oblastHiddenDiv{
+    top: 540px;
+    display: none;
+}
+#nameHiddenDiv{
+    top: 605px;
+    display: none;
+}
+#phoneCheckbox{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+#phoneHiddenDiv{
+    top: 658px;
+    display: none;
+}
+#e-mailHiddenDiv{
+    top:812px;
+    display: none;
+}
+#passwordHiddenDiv{
+    top: 865px;
+    display: none;
+}
 footer {
     display: inline-block;
     width: 100%;
-    height: 2em;
+    height: auto;
     align-content: center;
     line-height: 1.1em;
     padding: 15px 20px;
